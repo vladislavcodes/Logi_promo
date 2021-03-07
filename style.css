@@ -280,11 +280,11 @@ body {
 }
 
 .mouse__img_1 {
-    background-image: url(img/mouse__img_1.svg);
+    background-image: url(img/mouse__img_1.png);
 }
 
 .mouse__img_2 {
-    background-image: url(img/mouse__img_2.png);
+    background-image: url(img/mouse__img_1.svg);
 }
 
 footer {
