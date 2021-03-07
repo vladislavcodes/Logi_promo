@@ -1,0 +1,503 @@
+body {
+    font-family: Roboto;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+.text_margin {
+    margin-left: 34px;
+    margin-right: 32px;
+}
+
+.text__flow {
+    margin-bottom: 24px;
+    text-align: left;
+    width: 222px;
+}
+
+.text_settings {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    background: #E0E1E2;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+.top__text-margin {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.top__svg {
+    width: 42px;
+    height: 22px;
+}
+
+.top__img {
+    margin-top: 94px;
+    height: 256px;
+    background-image: url(img/MX-Master\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 41px;
+}
+
+.top__arrow {
+    margin-top: 40px;
+}
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.bluetooth__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+.bluetooth__img {
+    height: 284px;
+    background: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.info {
+    padding-top: 70px;
+    padding-bottom: 77px;
+}
+
+.info__item {
+    border: 1px solid rgba(47, 49, 50, 1);
+    flex-basis: 166px;
+    padding-left: 17px;
+    padding-right: 17px;
+    min-height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__content {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.info__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    padding-bottom: 20px;
+    /* margin-left: 34px;
+    margin-right: 33px; */
+}
+
+.info__text {
+    margin-left: 33px;
+    margin-right: 34px;
+    padding-top: 19.5px;
+}
+
+.info__item-heading {
+    margin-bottom: 5px;
+}
+
+.info__slider .info-indicators {
+    margin: 10px 10px -80px 10px;
+}
+
+.info__slider .info-indicators .info__button {
+    margin-right: 11px;
+    margin-left: 11px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info-indicators .wood-texture {
+    background-image: url(img/wood-texture.svg);
+}
+
+.info-indicators .glass-texture {
+    background-image: url(img/glass-texture.svg);
+}
+
+.info-indicators .linoleum-texture {
+    background-image: url(img/linoleum-texture.svg);
+}
+
+.info-indicators .cloth-texture {
+    background-image: url(img/cloth-texture.svg);
+}
+
+.info-indicators .marble-texture {
+    background-image: url(img/marble-texture.svg);
+}
+
+.info__slider .info-indicators .info-control-prev {
+    opacity: 1;
+    width: 9.15px;
+    height: 18.3px;
+    margin-left: 20px;
+}
+
+.info__slider .info-indicators .info-control-next {
+    opacity: 1;
+    width: 9.15px;
+    height: 18.3px;
+    margin-right: 20px;
+}
+
+.carousel {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.carousel .carousel-indicators [data-bs-target] {
+    height: 30px;
+}
+
+.carousel .carousel-indicators .carousel-control-prev-icon {
+    background-image: url(img/arrow-left.svg);
+}
+
+.carousel .carousel-indicators .carousel-control-next-icon {
+    background-image: url(img/arrow-right.svg);
+}
+
+.carousel-item {
+    margin-bottom: 27px;
+}
+
+.flow {
+    padding-top: 70px;
+    padding-bottom: 218px;
+    background: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.jpg);
+    background-color: #EDEDED;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.flow__ol {
+    margin-top: 36px;
+    padding-left: 54px;
+}
+
+.settings {
+    padding-top: 70px;
+    background: #EDEDED;
+}
+
+.settings__slider {
+    padding: 35px 22px 15px 23px;
+}
+
+.settings__content {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.settings__slider .settings-indicators {
+    margin-bottom: -90px;
+    padding: 0px 0px 60px 0px;
+}
+
+.settings__slider .settings-indicators .settings__button {
+    background: #2F3132;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    margin: 15px 0px 0px 15px;
+}
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    height: 310px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mouse__img_1 {
+    background-image: url(img/mouse__img_1.png);
+}
+
+.mouse__img_2 {
+    background-image: url(img/mouse__img_2.png);
+}
+
+footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+
+    .top__img {
+        background-image: url(img/MX-Master\ 1.svg);
+        margin-bottom: 124px;
+        margin-top: 150px;
+        height: 514px;
+    }
+
+    .header__logo {
+        width: 240px;
+    }
+
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
+    .top__text-margin {
+        margin-left: 159px;
+        margin-right: 159px;
+    }
+
+    .top__arrow {
+        margin-top: 76px;
+    }
+
+    .top__svg {
+        width: 61px;
+        height: 33px;
+    }
+
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 3px;
+    }
+
+    .bluetooth__heading {
+        font-size: 150px;
+        line-height: 176px;
+    }
+
+    .bluetooth__img {
+        height: 597px;
+    }
+
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .info__item {
+        min-height: 170px;
+    }
+
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .carousel .carousel-indicators [data-bs-target] {
+        background-size: cover;
+        width: 40px;
+        height: 40px;
+    }
+
+    .carousel .carousel-indicators {
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+
+    .carousel .carousel-caption {
+        right: 0;
+        left: 0;
+    }
+
+    .flow {
+        padding-bottom: 498px;
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+
+    .text__flow-p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        padding-left: 0;
+    }
+
+    .text__flow {
+        width: auto;
+        padding: 8px 21px 4px 28px;
+        border-left: 1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text__flow:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .text__flow:last-child {
+        padding-right: 0;
+    }
+
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .settings__slider {
+        margin: 54px 198px 150px;
+    }
+
+    .settings__slider .settings-indicators .settings__button {
+        padding-right: 25px;
+        height: 25px;
+    }
+
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .settings__icons {
+        margin-right: 104px;
+        margin-left: 98px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+
+    .heading_settings {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 64px;
+        padding-bottom: 50px;
+    }
+
+    .mouse__img {
+        height: 470px;
+    }
+
+    .mouse__img_1 {
+        background-image: url(img/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.jpg);
+    }
+
+    .mouse__img_2 {
+        background-image: url(img/image\ 2.jpg);
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
+    }
+}
